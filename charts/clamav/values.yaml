@@ -20,11 +20,11 @@ imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
 
-podSecurityContext:
-  runAsNonRoot: true
-  runAsUser: 100
-  runAsGroup: 101
-  fsGroup: 101
+podSecurityContext: {}
+#  runAsNonRoot: true
+#  runAsUser: 100
+#  runAsGroup: 101
+#  fsGroup: 101
 
 securityContext:
   allowPrivilegeEscalation: false
